@@ -7,26 +7,26 @@ A basic yet functional website pinger, you can use this to keep repl.it, Glitch 
 # Example Code (Interval = 30000)
 
 ```js
-const pinger = require('pinger.ts');
+const pinger = require('pinger.ts-dev');
 pinger.ping("https://k1e.io")
 ```
 # Example Code (Interval = Custom)
 
 ```js
-const pinger = require('pinger.ts');
+const pinger = require('pinger.ts-dev');
 pinger.ping("https://k1e.io", 10000)
 ```
 
 # Example Code (With Logging)
 
 ```js
-const pinger = require('pinger.ts');
+const pinger = require('pinger.ts-dev');
 pinger.ping("https://k1e.io", 30000, true)
 ```
 
 # Example Code (Discord Logging)
 ```js
-const pinger = require('pinger.ts');
+const pinger = require('pinger.ts-dev');
 pinger.dping(webhooktoken='V8LP8mnbnCkJqdwWZrCs7ib9xVnihhiXheAWRPHnrkZt6', webhookid='109337362537264548', url='https://k1e.io')
 ```
 This method will not let you set an interval below 10000 due to Discord's rate limiting.
@@ -35,7 +35,7 @@ This method will not let you set an interval below 10000 due to Discord's rate l
 Pinger Group allows you to ping several domains at the same time!
 
 ```js
-const { Group } = require('pinger.ts');
+const { Group } = require('pinger.ts-dev');
 let groupPinger = new Group(); //You can pass a string to name the group if you have multiple groups
 
 ['wubzy.xyz', 'k1e.io'].forEach(u => groupPinger.add(u, 5000));
@@ -59,13 +59,13 @@ group.pingers //Map<number, pinger>
 ## Webserver
 
 ```js
-const pinger = require('pinger.ts');
+const pinger = require('pinger.ts-dev');
 pinger.webserver(3000) // Replace 3000 with the port of your choice.
 ```
 
 ## Webserver (with Custom Splash)
 
 ```js
-const pinger = require('pinger.ts');
+const pinger = require('pinger.ts-dev');
 pinger.webserver(3000, 'Welcome to my webserver!') // Replace 'Your content here with HTML code or general text.'
 ```
