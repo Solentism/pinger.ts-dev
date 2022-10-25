@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2022, Kieran Schuler (picturebooks // kieran@k1e.io)
  *
- * https://github.com/picturebooks/pinger.ts
+ * https://github.com/picturebooks/pinger.ts-dev
  *
  * This code is subject to the BSD 3-Clause "New" or "Revised" License authored by Regents of the University of California.
  * Information about this license can be found in the LICENSE.md file.
@@ -13,7 +13,7 @@
  * @param {flipDM} Flip the month/day to day/month in the log
  * @param {noURLFix} If you're pinging a non-http/https url, set this to true
  * @example
- * const pinger = require("pinger.ts")
+ * const pinger = require("pinger.ts-dev")
  * pinger.ping("k1e.io", 60000, true)
  *
  * Start a webserver
@@ -21,7 +21,7 @@
  * @param {content} The content to display on the page, if no content is provided, it will be autofilled.
  * @param {flipDM} Flip the date and the month to other formats (American & British)
  * @example
- * const pinger= require("pinger.ts")
+ * const pinger= require("pinger.ts-dev")
  * pinger.webserver(9005, "Welcome!", true)
  *
  */
