@@ -1,6 +1,6 @@
 {
   "name": "pinger.ts-dev",
-  "version": "1.0.0-1",
+  "version": "1.0.0-2",
   "description": "Need to keep your websites up 24/7 but are hosted on Glitch or repl.it? Use this simple NPM package to do so! (This is the development version of pinger.ts)",
   "main": "dist/index.js",
   "scripts": {
