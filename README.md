@@ -1,8 +1,8 @@
-# pinger.ts (a newer, better pinger)
+# pinger.ts-dev (a newer, better pinger, but the dev version)
 
 A basic yet functional website pinger, you can use this to keep repl.it, Glitch or other similar project sites online 24/7!
 
-[NPM](https://nodei.co/npm/pinger.ts)
+[NPM](https://nodei.co/npm/pinger.ts-dev)
 
 # Example Code (Interval = 30000)
 
